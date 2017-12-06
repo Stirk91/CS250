@@ -1,0 +1,78 @@
+Questions and Answers
+Answer the following questions in a .txt file and turn them in with the rest
+of the lab.
+
+1. General vocabulary
+(a) What is a parameter and an argument?
+	A parameter is a variable used in the declaration of the function.
+	e.g. void sumFruits(int a, int b);
+	int a and int b are the parameters
+
+	An argument is the actual value that is passed to the function.
+	int apples = 2;
+      	int bananas = 5;
+	e.g. sumFruits(apples, bananas);	
+	apples and bananas are the arguments
+
+(b) In relation to Arrays, what is an element and what is an index?
+The index is the identifier of an element or the position of an element in an array. The element is the value that can be referenced by the index.
+
+2. Vectors
+http://www.cplusplus.com/reference/vector/vector/
+(a) What function of the vector class will erase all of its elements?
+	void clear();
+
+(b) What two functions can you use to add items to a vector?
+	void push_back(value_type &value);
+	void insert(const_iterator position, const value_type &value);
+
+3. Lists
+http://www.cplusplus.com/reference/list/list/
+(a) What function gives you the size of the list?
+	size_type size();
+
+(b) What function will reverse the items in a list?
+      void reverse();
+
+4. Queues
+http://www.cplusplus.com/reference/queue/queue/
+(a) What is the function to add an item to the queue?
+	void push( value_type &value);
+
+(b) What is the function to remove the front item from the queue?
+	void pop();
+
+(c) What is the function to access the front item of the queue?
+	reference& front();
+
+(d) What is the function to see whether the queue is empty?
+	bool empty();
+
+
+5. Stacks
+http://www.cplusplus.com/reference/stack/stack/
+(a) What is the function to add an item to the stack?
+	void push(value_type &value);
+
+(b) What is the function to remove the top item from the stack?
+	void pop();
+
+(c) What is the function to access the top item of the stack?
+	reference& top();
+
+(d) How are stacks and queues different?
+	Queues are first-in, first-out, so elements that are added at first are removed first, and new elements go to the back of the queue. Stacks are first in, last out, so elements that are added first are removed last, and new elemnets go to the top of the stack.
+
+
+6. Maps
+http://www.cplusplus.com/reference/map/map/
+(a) What is a key?
+	The key is an identifier of a specific element in the map.
+
+(b) What is a value?
+	The value is the element mapped to the associated key.
+
+(c) What are some other terms to refer to a map data structure?
+	Hash tables and dictionaries.
+
+

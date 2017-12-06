@@ -1,0 +1,14 @@
+Lab02: Questions and Answers
+Linden Stirk
+
+1. What are the four levels of exception safety?
+No-throw guarantee, Strong exception safety, Basic exception safety, and No exception safety
+
+2. How many catch blocks can there be with a single try block?
+As many catch blocks as needed.
+
+3. Which exceptions are children of the logic error exception?
+invalid_argument, length_error, out_of_range
+
+4. Which exceptions are children of the runtime error exception?
+range_error, overflow_error, underflow_error
